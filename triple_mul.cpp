@@ -9,7 +9,6 @@ static const int L = 3;
 static const int M = 4;
 static const int N = 4;
 
-
 #pragma hls_design top
 void CCS_BLOCK(triple_matrix_mul)(short A[K][L], short B[L][M], short C[M][N], short res[K][N]){
 	short temp[K][M] = {};//buffer
